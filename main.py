@@ -55,6 +55,6 @@ def convert(text):
         elif i in morse:
             result.append(morse[i])
     return " ".join(result)
-
-text = "halO"
+print("Welcome to the morse converter!!!")
+text = input("Type here\n")
 print(convert(text))
